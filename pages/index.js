@@ -27,6 +27,7 @@ export default () => {
             <h4 className="telephone">telephone</h4>
             <h4 className="credit-card">credit card</h4>
           </div>
+          <pre>{ JSON.stringify(data)}</pre>
           {data.length > 0 ? (
             data.map(d => (
               <TableRow
